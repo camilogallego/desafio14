@@ -1,0 +1,36 @@
+<div class="container">
+  <legend>Ingrese Producto</legend>
+  <form onsubmit="return addProduct(this)" class="row">
+    <div class="col-md-6">
+      <label for="titleProduct" class="form-label">Nombre</label>
+      <input name="title" type="text" class="form-control" id="titleProduct" />
+    </div>
+    <div class="col-md-6">
+      <label for="pricesProduct" class="form-label">Precio</label>
+      <input
+        type="number"
+        name="price"
+        class="form-control"
+        id="pricesProduct"
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="thumbnailProduct" class="form-label">Foto</label>
+      <input
+        type="text"
+        class="form-control"
+        name="thumbnail"
+        id="thumbnailProduct"
+      />
+    </div>
+    <div class="btnContainer col-md-6">
+      <button
+        type="submit"
+        value="Grabar Persona"
+        class="btn btn-primary "
+      >
+        Guardar
+      </button>
+    </div>
+  </form>
+</div>

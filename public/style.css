@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.containerBody {
+  background-color: #1C2833;
+  width: 40vw;
+  padding: 10px;
+  color: aliceblue;
+}
+.containerBodym {
+  margin-top: 10px;
+  background-color:  #e5e5e5;
+  width: 40vw;
+}
+
+.btnContainer {
+  margin-top: 30px !important;
+}
+
+.scrol {
+  height: 110px;
+  overflow: scroll;
+  overflow-x: hidden;
+  
+}
+
+.containerMessage{
+  height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 10px;
+  
+}
+
+.message{
+  display: flex;
+  margin: 10px;
+}
